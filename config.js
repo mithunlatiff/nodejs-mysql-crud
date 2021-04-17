@@ -1,6 +1,6 @@
 var config = {
 	database: {
-		host:	  process.env.DB_SERVICE_HOST, 	// database host
+		host:	  'db', 	// database host
 		user: 	  process.env.MYSQL_USER, 		// your database username
 		password: process.env.MYSQL_PASSWORD, 		// your database password
 		port: 	  process.env.DB_SERVICE_PORT_3306_TCP, 		// default MySQL port
